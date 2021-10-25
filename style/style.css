@@ -1,0 +1,48 @@
+.promo{
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.promo video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.promo .container-xxl {
+    position: relative;
+    z-index: 2;
+}
+.promo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.ingredients{
+    background: linear-gradient(to top, #cb9ec5, #7f88a3);
+}
+.block{
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+    padding: 10px;
+}
+.block img{
+    max-width: 75px;
+    border-radius: 50%;
+}
