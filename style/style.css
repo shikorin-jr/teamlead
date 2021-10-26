@@ -46,3 +46,25 @@
     max-width: 75px;
     border-radius: 50%;
 }
+.review {
+    background: linear-gradient(to bottom, #cb9ec5, #7f88a3);
+    padding: 50px 0;
+}
+.review .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.review .col-lg-4 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.carousel-control-prev, .carousel-control-next{
+
+}
+.carousel-control-prev{
+    left: -70px;
+}
+.carousel-control-next{
+    right: -70px;
+}
