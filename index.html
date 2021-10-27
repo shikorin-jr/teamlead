@@ -47,7 +47,7 @@
                             <li>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</li>
                             <li>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</li>
                         </ul>
-                    <a class="mt-5 btn btn-lg btn-success w-50" href="#" role="button">Заказать</a>
+                    <a class="mt-5 btn btn-lg btn-success w-50" href="#form" role="button">Заказать</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
     <section class="ingredients">
         <div class="container-xxl">
             <div class="row">
-                <div class="col-3 ">
+                <div class="col-lg-3 ">
                     <div class="block d-flex flex-column justify-content-center  align-items-center  mb-5 mt-5 pt-3 pb-2" >
                         <img src="./img/face.jpg" alt="face">
                         <p class="lead">Lorem Ipsum - это текст-"рыба"</p>
@@ -69,13 +69,13 @@
                         <p class="lead">Lorem Ipsum - это текст-"рыба"</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="block-center d-flex flex-column justify-content-center  align-items-center  mb-5 mt-5 pt-3 pb-2" >
                         <img src="./img/prod.png" alt="product">
-                        <a class="mt-5 btn btn-lg btn-success w-50" href="#" role="button">Заказать</a>
+                        <a class="mt-5 btn btn-lg btn-success w-50" href="#form" role="button">Заказать</a>
                     </div>
                 </div>
-                <div class="col-3 ">
+                <div class="col-lg-3 ">
                     <div class="block d-flex flex-column justify-content-center  align-items-center  mb-5 mt-5 pt-3 pb-2" >
                         <img src="./img/face.jpg" alt="face">
                         <p class="lead">Lorem Ipsum - это текст-"рыба"</p>
@@ -165,10 +165,33 @@
               </div>
         </div>
     </section>
+    <section class="block4 pt-5 pb-5">
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-lg-6 ">
+                    <img class="mt-5 " style="max-width: 200px;    margin: 0 auto;  display: block;" src="./img/doctor.png" alt="doctor">
+                </div>
+                <div class="col-lg-6">
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-4">
+                    <p style="text-align: center;">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p style="text-align: center;">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p style="text-align: center;">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="block5">
         <div class="container-xxl">
             <div class="product-name text-center">
-                <h1 class="display-3">Product Name</h1> 
+                <h1 class="display-3"><a name="form">Product Name</a></h1> 
             </div>
             <div class="timer">
                 <div class="row justify-content-center text-center">
@@ -182,10 +205,12 @@
                     </div>
                 </div>
             </div>
-            <div class="inner">
-                <div class="row">
+            <div class="inner pb-5 pt-5">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
+                        
                         <form class="row justify-content-center">
+                            <h2 class=" mb-5" style="text-align: center;">Заполните форму</h2>
                             <div class="col-lg-8 mb-2">
                               <label for="validationCustom01" class="form-label">Введите ваше имя:</label>
                               <input type="text" class="form-control" id="validationCustom01" value="" required>
@@ -194,20 +219,24 @@
                               </div>
                             </div>
                             <div class="col-lg-8 mb-3">
-                              <label for="validationCustom02" class="form-label">Введите ваш Email:</label>
-                              <input type="text" class="form-control" id="validationCustom02" value="" required>
+                              <label for="validationCustom02" class="form-label">Введите ваш Телефон:</label>
+                              <input type="number" class="form-control" id="validationCustom02" value="" required>
                               <div class="valid-feedback">
                                 Looks good!
                               </div>
                             </div>
-                            
                             <div class="col-lg-8">
                               <button class="btn btn-primary w-100" type="submit">Отправить</button>
                             </div>
                           </form>
                     </div>
-                    <div class="col-lg-6">
-                        description
+                    <div class="col-lg-6 ">
+                        <div class="row justify-content-center">
+                            <img class="mt-5 " style="max-width: 150px;" src="./img/prod.png" alt="product">
+                            <div class="price_old">2000 руб.</div>
+                            <div class="price_new">1000 руб.</div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

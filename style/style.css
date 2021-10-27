@@ -65,8 +65,11 @@
 .carousel-control-next{
     right: -70px;
 }
-.block5{
+.block4{
     background: linear-gradient(to top, #cb9ec5, #7f88a3);
+}
+.block5{
+    background: linear-gradient(to bottom, #cb9ec5, #7f88a3);
 }
 .product-name{
     color: #fff;
@@ -79,4 +82,30 @@
     margin: 10px;
     padding: 50px 10px;
     background-color: rgba(255, 255, 255, .5);
+}
+.price_old{
+    text-decoration: line-through;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+.price_new{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
